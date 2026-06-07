@@ -7,8 +7,6 @@ int countPairs1(int *arr, int len, int value) {
             int s = arr[i] + arr[j];
             if (s == value) {
                 ++c;
-            } else if (s > value) {
-                break;
             }
         }
     }
