@@ -22,7 +22,6 @@ while (l < r) {
   if (s == value) {
     ++c;
     ++l;
-    --r;
   } else if (s < value) {
     ++l;
   } else {
